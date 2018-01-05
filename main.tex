@@ -1,7 +1,7 @@
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
-\documentclass[margin, centered]{res}
+\documentclass[margin, centered, 10.5pt]{res}
 \topmargin=-0.5in
 \oddsidemargin -.5in
 \evensidemargin -.5in
@@ -13,7 +13,8 @@
 \usepackage{enumitem}
 \usepackage{wrapfig}
 \usepackage{helvet}
-\usepackage[colorlinks = true,
+\usepackage[utf8]{inputenc}
+\usepackage[colorlinks = false,
             linkcolor = blue,
             urlcolor  = blue,
             citecolor = blue,
@@ -21,21 +22,31 @@
 \setlength{\textwidth}{6.5in} % Text width of the document
 \setlength{\textheight}{720pt}
 
-\begin{document}
+% \pagestyle{plain} 
+% \setcounter{page}{1}
+% \pagenumbering{arabic}
 
+
+\begin{document}
 %----------------------------------------------------------------------------------------
 %	NAME AND ADDRESS SECTION
 %----------------------------------------------------------------------------------------\
+
 \begin{center}
     \hspace{-\hoffset}
-    \huge\bf{\href{https://theyashagarwal.me}{Yash Agarwal}}
+    \huge\bf{\href{https://yashhere.github.io}{Yash Agarwal}}
 \end{center}
 \vspace{-4mm}
 \moveleft\hoffset\vbox{\hrule width 19cm height 0.5pt}
 \vspace{-7mm}
 \begin{center}
     \hspace{-\hoffset}
-    \href{mailto:yashagarwaljpr@gmail.com}{yashagarwaljpr@gmail.com} ~\textbullet~ (+91) 9995902061 ~\textbullet~ \#237, B Hostel, NITC, Kerala, India - 673601\\
+    \href{mailto:yashagarwaljpr@gmail.com}{yashagarwaljpr@gmail.com} ~\textbullet~ (+91) 9995902061 / (+91) 9928308953
+\end{center}
+\vspace{-8mm}
+\begin{center}
+    \hspace{-\hoffset}
+    \textbf{Address:} 49-A, Shri Ram Nagar-A, Kalwar Road, Jhotwara, Jaipur, Rajasthan, India - 302012\\
 \end{center}
 \vspace{-7mm}
 \begin{resume}
@@ -44,51 +55,64 @@
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 \section{Education}
-\textbf{B.Tech in Computer Science \& Engineering, Junior Year} \hfill 2014 - 2018 \\
+\textbf{B.Tech in \href{http://cse.nitc.ac.in}{Computer Science \& Engineering}, Senior Year} \hfill 2014 - Present \\
 \href{http://nitc.ac.in/}{National Institute of Technology, Calicut, India}
 \begin{itemize}
- \item CGPA of \textbf{7.74}/10 (May 2016)
+ \item CGPA of \textbf{7.86}/10 (end of 7\textsuperscript{th} semester)
 \end{itemize}
 \textbf{High School} - {Jagrati Vidya Mandir, Jhotwara, Jaipur} (RBSE) - 89\% \hfill 2013 \\
 \textbf{Secondary School} - Adarsh Vidya Mandir, Jhotwara, Jaipur (RBSE) - 92.5\% \hfill 2011
-
-%----------------------------------------------------------------------------------------
-%	TECHNICAL SKILLS SECTION
-%----------------------------------------------------------------------------------------
-\section{Technical \hspace{2mm} Skills}
-%\textbf{Strongest Areas} - Databases, Algorithms, Parallel Programming \\
-\textbf{Languages} - C, Python\\
-\textbf{Tools/Frameworks} - Git\\
-\textbf{Web Development} - HTML, CSS, JavaScript\\
-\textbf{Operating Systems} - Windows, Arch Linux, Ubuntu, CentOS
 
 %----------------------------------------------------------------------------------------
 %	EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 \section{Experience}
 \textbf{Web Developer at \href{http://www.meetvaidya.com}{MeetVaidya}} \hfill July, 2015 - December, 2015\\
-Worked in a team of 3 persons to improve the interface of the Web portal for online Ayurvedic consultation using JavaScript, PHP and MySQL.
+Worked in a team of 3 to improve the interface of the Web portal for online Ayurvedic consultation using JavaScript, PHP and MySQL.
 
 %----------------------------------------------------------------------------------------
 %	Projects Section
 %----------------------------------------------------------------------------------------
 \section{Projects}
-Projects available on git : \url{https://www.github.com/yash2696}
+Projects available on GitHub : \url{https://www.github.com/yashhere}
 %\setlist[itemize]{
 \begin{itemize}[leftmargin=*]
-\item \textbf{Seat Jugaad} : Developed a web project using PHP. Worked in a team of 5 to develop a algorithm for getting alternate routes for a train in case, the complete path is not available in a single journey.
-\item \textbf{\href{https://ccrg.cse.nitc.ac.in}{Cloud Computing Research Group}} : Deployed the Cloud Computing Research Group website to a Ubuntu based server and currently maintaining the site.
-\item \textbf{{Linux From Scratch}} : Built a minimal fully customizable Linux system entirely from source.
-%\item \textbf{Personal Blog}} : Built a blog using jekyll from scratch
+\item \textbf {An Analysis of Android Permission Model} : Proposed as the Final Year Project. Aim is to analyze the Android permission model and to identify various security problems, it poses to normal user.
+\item \textbf{\href{https://github.com/yashhere/RedWallDown}{RedWallDown}} : Download trending Reddit wallpapers and set them as wallpaper on your Linux, Mac or Windows machine.
+\item \textbf{\href{https://github.com/yashhere/goofy}{Goofy}} : Generate .gitignore file for projects.
+\item \textbf{\href{https://github.com/yashhere/BeautifyMP3}{BeautifyMP3}} : A command line tool for fixing ID3 metadata and adding Album Art to MP3 songs.
+\item \textbf{\href{https://github.com/yashhere/xkcdTwitterBot}{xkcdTwitterBot}} : A Twitter bot which tweets xkcd comics related to programming, tech, math, algorithms or anything computer science related.
+\item \textbf{\href{https://github.com/yashhere/GitView}{GitView}} : A tool to view your GitHub profile in more compact way. Written in Angular.
+\item \textbf{\href{https://fosscell.github.io/2017/index.html}{FOSSMeet'17 Marketing Website}} : Developed the marketing website of FOSSMeet'17.
+\item \textbf{\href{https://github.com/yashhere/ExperimentalOS}{eXperimental OS}} : Developed a toy OS to understand the internal working of a OS as a part of course project.
+% \item \textbf{Linux Kernel Project} : Wrote code for a basic RamDisk Driver using Linux Kernel inbuilt functions and Crypto API to enable encryption and decryption as a part of course project.
+% \item \textbf{Seat Jugaad} : Developed a web project for querying train information. Worked in a team of 5 to develop a algorithm for getting alternate routes for a train in case, the complete path is not available in a single journey.
+\item \textbf{{Linux From Scratch}} : Built a minimal fully configurable Linux system entirely from source.
 \end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\section{Technical \hspace{2mm} Skills}
+%\textbf{Strongest Areas} - Databases, Algorithms, Parallel Programming \\
+\textbf{Languages} - C, Python, C++(Basic), Bash(Beginner) \\
+\textbf{Tools/Frameworks} - Git, Vim, VisualStudio, SublimeText \\
+\textbf{Web Development} - HTML, CSS, JavaScript(Basic), Angular2(Beginner)\\
+\textbf{Operating Systems} - Windows, Arch Linux, Ubuntu
+
 
 %----------------------------------------------------------------------------------------
 %	Positions of Responsibility SECTION
 %----------------------------------------------------------------------------------------
 \section{Positions of \hspace{2mm} Responsibility}
 \begin{itemize}[leftmargin=*]
+% \item\textbf{Secretary of FOSSCell} \hfill July, 2017 - Present
+\item\textbf{{Secretary of \href{https://twitter.com/FOSSCell}{FOSSCell}, NITC}} \hfill July, 2017 - Present
 \item\textbf{Lab Admin at \href{http://athena.nitc.ac.in}{Software Systems Lab}} \hfill April, 2016 - Present\\
-Maintaining all the servers of CSE Department and systems of the lab
+Maintaining all the Linux based servers of CSE Department and systems of the lab
+\item\textbf{Member of FOSSCell, NIT Calicut} \hfill August, 2016 - Present\\
+A part of FOSS community at NITC, worked in the organizing team of \href{http://fossmeet.in}{FOSSMeet} 2017.
 \item\textbf{Executive at \href{https://www.facebook.com/ipfnitc}{Industrial and Planning Forum}} \hfill April, 2015 - Present\\
 Organized techno-managerial events for first year B.Tech students
 \end{itemize}
@@ -96,33 +120,55 @@ Organized techno-managerial events for first year B.Tech students
 %----------------------------------------------------------------------------------------
 %	RELEVANT COURSE SECTION
 %----------------------------------------------------------------------------------------
-\section{Relevant \hspace{2mm} Courses}
-\begin{itemize}[leftmargin=*]
-\item{Data Structures and Algorithms}
-\item{Foundations of Programming}
-\item{Computer Organization}
-\end{itemize}
+\section{Relevant \hspace{2mm} Courses\\(* Current)}
+Data Structures and Algorithms, Foundations of Programming, Computer Organization,\\Operating Systems, Database Management Systems, Computer Architecture, Data Mining,\\Computer Networks, Computational Intelligence, Distributed Computing*, Computer Security*, Natural Language Processing*
+
 
 %----------------------------------------------------------------------------------------
 %	Areas of Interest SECTION
 %----------------------------------------------------------------------------------------
+
+
 \section{Areas of \hspace{2mm} Interest}
-\begin{itemize}[leftmargin=*]
-\item{Linux system Administration}
-\item{Server Administration}
-\item{Artificial Intelligence}
-\item{Computer Security}
-\end{itemize}
+Linux System Administration, Server Administration, Computer Networks
+% \begin{itemize}[leftmargin=*]
+% \item Linux System Administration
+% \item Server Administration
+% \item Artificial Intelligence
+% \item Computer Networks
+% \end{itemize}
+
 
 %----------------------------------------------------------------------------------------
-%	HOBBIES SECTION
+%	Personal Details SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Hobbies}
-Reading Technical Blogs, Trying New distros, Reading Quora
+% \section{Personal Details}
+% \textbf{Father's Name} - Mr. Sarwan Kumar Agarwal \\
+% \textbf{DOB} - June 2, 1996 \\
+% \textbf{Gender} - Male \\
+% \textbf{Martial Status} - Single \\
+% \textbf{Permanent Address} - 49-A, Shri Ram Nagar-A, Kalwar Road, Jhotwara, Jaipur, Rajasthan, India 302012\\
+% \textbf{Languages} - English, Hindi \\
+% \textbf{Hobbies} - Reading Technical Blogs, Reading Quora \\
+% \textbf{Strengths} - Quick learner, Team player, Flexible with work \\
+% \textbf{Webpage} - \href{https://yashhere.github.io}{https://yashhere.github.io}
 
-\section{More}
-Please visit \href{https://theyashagarwal.me}{https://theyashagarwal.me}
+%----------------------------------------------------------------------------------------
+%	References SECTION
+%----------------------------------------------------------------------------------------
 
+% \section{References}
+
+%----------------------------------------------------------------------------------------
+%	Declaration SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Declaration}
+% I hereby declare that the above information's are true to best of my knowledge.\\[12pt]
+% Place: Calicut \hspace{10cm} Signature                                                  
+
+\section{More} 
+Please visit \href{https://yashhere.github.io}{https://yashhere.github.io}
 \end{resume}
 \end{document}
